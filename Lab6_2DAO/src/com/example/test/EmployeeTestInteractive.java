@@ -31,6 +31,7 @@ public class EmployeeTestInteractive {
         Employee emp;
         String action;
         int id;
+        System.out.println("Hello jonny");
         System.out.println("\n\n[C]reate | [R]ead | [U]pdate | [D]elete | [L]ist | [Q]uit: ");
         action = in.readLine();
         if ((action.length() == 0) || action.toUpperCase().charAt(0) == 'Q') {
